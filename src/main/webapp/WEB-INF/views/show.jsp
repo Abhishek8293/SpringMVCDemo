@@ -51,7 +51,7 @@ body {
 	<div class="student-details">
 		<h2>Student Information</h2>
 		<div class="student-detail">
-			Student ID: <span id="studentID"><%=student.getStudentId()%></span>
+			Student ID: <span id="studentID"><%=student.getStudentID()%></span>
 		</div>
 		<div class="student-detail">
 			Student Name: <span id="studentName"><%=student.getStudentName()%></span>

@@ -2,21 +2,21 @@ package com.entity;
 
 public class Student {
 
-	private Integer studentId;
+	private Integer studentID;
 	private String studentName;
 	private String studentEmail;
 	private String studentAddress;
 	
 	
 	
-	public Integer getStudentId() {
-		return studentId;
+	public Integer getStudentID() {
+		return studentID;
 	}
 
 
 
-	public void setStudentId(Integer studentId) {
-		this.studentId = studentId;
+	public void setStudentID(Integer studentID) {
+		this.studentID = studentID;
 	}
 
 
@@ -57,9 +57,9 @@ public class Student {
 
 
 
-	public Student(Integer studentId, String studentName, String studentEmail, String studentAddress) {
+	public Student(Integer studentID, String studentName, String studentEmail, String studentAddress) {
 		super();
-		this.studentId = studentId;
+		this.studentID = studentID;
 		this.studentName = studentName;
 		this.studentEmail = studentEmail;
 		this.studentAddress = studentAddress;
@@ -69,7 +69,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentEmail=" + studentEmail
+		return "Student [studentId=" + studentID + ", studentName=" + studentName + ", studentEmail=" + studentEmail
 				+ ", studentAddress=" + studentAddress + "]";
 	}
 	
